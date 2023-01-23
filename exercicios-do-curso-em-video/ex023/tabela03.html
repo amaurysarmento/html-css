@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        caption {
+            padding: 5px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td,th  {
+            padding: 5px;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+<body>
+    <h1>Exercicio de tabelas</h1>
+    <table>
+        <caption>
+            <strong>Filmes favoritos</strong>
+        </caption>
+        <thead>
+            <tr>
+                <th>Grupo</th>
+                <th>Nomes</th>
+                <th colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Mulheres</th>
+                <td>Julia Mendonça Ribeiro</td>
+                <td>Batman</td>
+                <td>Rapunzel</td>
+                <td>Rambo</td>
+            </tr>
+            <tr>
+                <td>Marcelly Santos Almeida</td>
+                <td>Oblivion</td>
+                <td>Os Farofeiros</td>
+                <td>Minha Mãe é Uma Peça</td>
+            </tr>
+            <tr>
+                <td>Gabriele Raimunda</td>
+                <td>Norbit</td>
+                <td>Hercules</td>
+                <td>Xena</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Homens</th>
+                <td>Joel Samrento</td>
+                <td>Os incriveis</td>
+                <td>O Hobbit</td>
+                <td>Minions</td>
+            </tr>
+            <tr>
+                <td>Amaury Balico</td>
+                <td>Roberto Carlos</td>
+                <td>Erasmo Carlos</td>
+                <td>Faroeste</td>
+            </tr>
+            <tr>
+                <td>Amaury Junior</td>
+                <td>O hobbit</td>
+                <td>Minions</td>
+                <td>Shoun Carneiro</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
