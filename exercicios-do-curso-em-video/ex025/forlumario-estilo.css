@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    /* background: url('background/Charizard.jfif') no-repeat center center fixed;
+    background-size: cover; */
+    position: absolute;
+}
+
+
+
+
+form {
+    position: relative;
+    display: block;
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(162, 189, 180);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    padding: 15px;
+}
