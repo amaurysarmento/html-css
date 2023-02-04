@@ -1,3 +1,13 @@
 @charset "UTF-8";
 
 /* Landscape*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
+}
