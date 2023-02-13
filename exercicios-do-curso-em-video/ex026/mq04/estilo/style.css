@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+html,body {
+    background-color: rgb(74, 72, 97);
+}
+
+header {
+    background-color: rgba(134, 65, 212, 0.719);
+}
+
+header > h1 { 
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+menu {
+    display: block;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    color: aliceblue;
+    background-color: rgba(128, 0, 128, 0.568);
+    border-top: 2px solid rgb(22, 5, 122);
+}
+
+menu > ul > li > a:hover {
+    background-color: rgb(136, 81, 187);
+} 
